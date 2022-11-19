@@ -1,0 +1,133 @@
+Conditions Statement supported by Java
+	1] if statement
+		a) nested if statement
+		
+	2] if-else statement
+		a) if-else ladder
+		b) nested if-else
+		
+	3] switch case statement
+	
+1] if statement
+	boolean result;
+
+	System.out.println("Congurats you are passed : "+result); // true
+	
+	System.out.println("Better luck next time you are failed : "+result); //false
+	
+	syntax:
+	
+	if(condition)
+	{
+		statement1;
+		statement2;
+		.
+		.
+	
+	}
+	
+	Nested if statement
+	
+	if(condition1)
+	{
+		if(condition2)
+		{
+			if(condition3)
+			{
+				statements
+			}
+		}
+	}
+	
+2] if-else statement
+	syntax:
+		if(condition)
+		{
+			statements  // executed if condition is true
+		}
+		else
+		{
+			statements  // executed if condition is false
+		}
+		
+	a) if-else ladder
+
+		if(condition1)
+			{
+				body of first if condition
+			}
+		else if(condition2)
+			{
+				body of second if condition
+			}
+			else if(condition3)
+				{
+					body of third if condition
+				}
+				else
+				{
+					else body
+				}
+	
+	
+	b) nested if-else
+		if(condition1)
+			{
+				if(condition2)
+					{
+						if(condition3)
+							{
+								body of 3rd if 
+							}
+						else
+							{
+								body of 3rd else
+							}
+				
+					}
+				else
+					{
+						body of 2nd else
+					}
+			}
+		else
+			{
+				body of 1st else
+			}
+			
+			
+			
+3] switch case statement
+
+	switch(variable)
+	{
+	case 1 : statements to be executed for case 1
+			break;
+			
+	case 2 : statements to be executed for case 2
+			break;
+			
+	case 3 : statements to be executed for case 3
+			break;
+				.
+				.
+				.
+	default : statement to be executed if non of the case is matched
+			break;
+	}
+// default case is optional, if it is required one can include it or exclude it.
+	
+	
+	
+	
+	
+Conditions
+	==  ---> to compare two values are equal
+	>   ---> greater than
+	< 	---> less than
+	>= 	---> greater than or equals to
+	<= 	---> less than or equals to
+	!= 	---> not equals to
+	&& 	---> logical AND
+	|| 	---> logical OR
+		
